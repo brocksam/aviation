@@ -11,7 +11,7 @@ To install the dependencies inside a virtual environment using [venv](https://do
 ```
 python3 -m venv .venv
 source .venv/bin/activate
-pip install mkdocs
+pip install -r requirements.txt
 ```
 
 ### Documentation
