@@ -18,10 +18,14 @@ The "required global fleet" can be estimated using a very simple model that assu
 
 Given that the two sourced inputs that are time dependent are given in different time bases, it is convenient to convert on of these so the two are consistent.
 
-$\text{passengers per day} = \frac{\text{passengers per year}}{\text{days per year}}$
+$$
+\text{passengers per day} = \frac{\text{passengers per year}}{\text{days per year}}
+$$
 
 The total required global fleet can then be calculated as a function of this intermediate value and the other inputs.
 
-$\text{required global fleet} = \frac{\text{passengers per day}}{\text{seats per aircraft} \times \text{flights per aircraft per day}}$
+$$
+\text{required global fleet} = \frac{\text{passengers per day}}{\text{seats per aircraft} \times \text{flights per aircraft per day}}
+$$
 
 [^1]: [ATAG Facts & Figures](https://atag.org/facts-figures)
