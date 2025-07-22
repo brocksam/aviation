@@ -1,5 +1,7 @@
 """Modelling of the global fleet based on average passenger and aircraft data."""
 
+__all__ = ("passengers_per_day", "required_global_fleet")
+
 from aviation._model import transform
 
 
