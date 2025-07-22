@@ -17,6 +17,7 @@ docs = [
 
 [tool.ruff]
 line-length = 100
+target-version = "py313"
 
 [tool.ruff.lint]
 select = ["B", "D", "E", "F", "I", "N", "SIM", "T", "UP"]
