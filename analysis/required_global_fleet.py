@@ -1,7 +1,8 @@
 """Analysis to determine the required size of the global fleet."""
 
+import camia_engine as engine
+
 import aviation
-from aviation import _engine as engine
 
 days_per_year = 365.25
 passengers_per_year = 5_000_000_000.0
